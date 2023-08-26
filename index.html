@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake and Ladders</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./assets/anaconda.png" type="image/x-icon">
+</head>
+<body>
+     <div class="h-screen  w-full overflow-x-hidden  bg-[url('/assets/bg.svg')] bg-cover bg-center  ">
+    <div class="w-11/12 max-w-6xl md:w-10/12 mx-auto flex items-center justify-center flex-col gap-y-5 py-6">
+        
+        <div class="text-2xl font-black text-white border-2 text-center border-white px-4 py-2 rounded-2xl">
+            Snake and Ladders Game
+        </div>
+
+        <div class="w-[100%] sm:w-3/4 md:w-1/2 max-w-sm  grid grid-cols-10  bg-[url('/assets/tablebg.svg')] ">
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">1</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">2</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">3</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-yellow-300">4</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">5</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">6</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">7</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">8</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-yellow-300">9</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white  font-bold">10</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">11</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">12</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">13</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">14</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">15</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">16</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-red-600">17</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">18</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">19</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-yellow-300">20</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">21</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">22</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">23</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">24</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">25</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">26</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">27</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-yellow-300">28</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">29</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">30</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">31</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">32</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">33</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">34</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">35</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">36</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">37</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">38</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">39</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-yellow-300">40</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">41</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">42</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">43</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">44</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">45</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">46</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">47</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">48</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">49</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">50</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">51</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">52</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">53</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-red-600">54</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">55</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">56</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">57</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">58</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">59</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">60</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">61</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-red-600">62</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-yellow-300">63</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-red-600">64</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">65</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">66</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">67</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">68</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">69</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">70</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-yellow-300">71</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">72</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">73</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">74</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">75</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">76</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">77</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">78</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">79</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">80</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">81</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">82</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">83</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">84</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">85</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">86</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold bg-red-600">87</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">88</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">89</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">90</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">91</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">92</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-red-600 ">93</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">94</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-red-600">95</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold ">96</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">97</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-white font-bold">98</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-red-600 ">99</div>
+            <div class="aspect-square border boxes border-black  text-sm sm:text-base md:text-lg flex justify-center items-center  text-black font-bold bg-green-600">W</div>
+            
+        </div>
+
+        <div class="flex  gap-x-2">
+            <button class="w-14 aspect-square bg-white rounded-lg text-2xl font-bold die "></button>
+        
+        </div>
+
+        <div>
+            <button class="px-3 py-2 bg-white rounded-lg text-2xl font-bold roll-die-button text-cente">Roll Dice</button>
+        </div>
+
+       <div class="bg-white rounded-lg text-2xl font-bold game-status text-center px-2 py-1"></div>
+
+
+        <div class="z-50 bg-[#00000071] backdrop-blur-sm w-full h-screen fixed top-0 left-0 flex items-center justify-center rules transition-all duration-500">
+
+            <div class=" w-11/12 md:w-1/3 bg-[#000000e3]   border p-6 rounded-2xl flex flex-col gap-y-3 ruling transition-all duration-500">
+                <div class="flex justify-between items-center ">
+                    <div class="text-white font-extrabold text-2xl text-center tracking-wider ">RULES</div>
+                     <button  class="cross"><i class="fa-solid fa-xmark text-white text-4xl  "></i></button>
+                </div>
+                <div class="flex items-center gap-x-3">
+                    <div class="bg-red-600 w-8 aspect-square rounded-md"></div>
+                    <div class="text-white">Punishment</div>
+                </div>
+                <div class="flex items-center gap-x-3">
+                    <div class="bg-yellow-300 w-8 aspect-square rounded-md"></div>
+                    <div class="text-white">Advantage</div>
+                </div> <div class="flex items-center gap-x-3">
+                    <div class="bg-green-600 w-8 aspect-square rounded-md"></div>
+                    <div class="text-white">Winner 🏆</div>
+                </div>
+                <div class="text-white flex flex-col gap-y-3">
+                    <div>🧡 - Player One</div>
+                   <div>💜 - Player Two</div> 
+
+                </div>
+                
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="z-50 bg-[#00000071] backdrop-blur-sm w-full h-screen  fixed top-0 left-0 flex  items-center justify-center opacity-0 invisible pointer-events-none  transition-all duration-500 end-outer">
+
+            <div class="  w-11/12 md:w-1/3 bg-[#000000e3]   border  rounded-2xl flex flex-col gap-y-3 py-12 px-5  transition-all scale-0 duration-500 end-outer-small">
+                <div class="bg-white rounded-lg text-2xl font-bold game-status-new text-center px-2 py-1 w-fit mx-auto "> </div>
+
+                <button class="bg-blue-300 px-3 py-2 rounded-2xl font-bold text-xl text-black  new-game-button text-center">
+                New Game
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/6f39cea2f0.js" crossorigin="anonymous"></script>
+
+    <script type = "module" src="./index.js"></script>
+</body>
+</html>
